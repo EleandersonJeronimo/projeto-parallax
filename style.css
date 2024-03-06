@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    position: relative;
+    background-image: url(../projeto-parallax/imagens/pexels-benjamin-suter-2400547.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+header > h1{
+    font-family: monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 2em;
+}
+
+section#section-one{
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 400px;
+    text-align: center;
+    margin: 20px;
+}
+
+section#section-one > h1{
+    font-size: 1.4em;
+}
+
+div#img-2{
+    position: relative;
+    background-image: url(../projeto-parallax/imagens/pexels-min-an-941195.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+div#img-2 > h1{
+    font-family: monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    background-color: black;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 2em;
+}
+
+section#section-two{
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+section#section-two > h1{
+    font-size: 1.4em;
+}
+
+div#img-3{
+    position: relative;
+    background-image: url(../projeto-parallax/imagens/pexels-pixabay-220769.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+div#img-3 > h1{
+    font-family: monospace;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    background-color: black;
+    width: 400px;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 2em;
+}
+
+section#section-three{
+    background-color: black;
+    color: white;
+    width: 90%;
+    height: 300px;
+    text-align: center;
+    padding: 20px;
+}
+
+section#section-three > h1{
+    font-size: 1.4em;
+}
+
+div#img-4{
+    position: relative;
+    background-image: url(../projeto-parallax/imagens/pexels-pixabay-417273.jpg);
+    width: 100%;
+    height: 600px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+div#img-4 > h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    background-color: black;
+    margin: auto;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    font-size: 2em;
+}
